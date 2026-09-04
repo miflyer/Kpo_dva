@@ -39,14 +39,6 @@ class Serialization:
 
     @staticmethod
     def create_sample_tree():
-        """
-        Создает пример бинарного дерева для демонстрации:
-              10
-             /  \
-            5    15
-           / \   / \
-          2   7 12  20
-        """
         root = TreeNode(10)
         root.left = TreeNode(5)
         root.right = TreeNode(15)
