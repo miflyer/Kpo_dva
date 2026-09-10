@@ -1,5 +1,6 @@
 from uniimport import Uniimport
 
+
 #Класс для Сценария 3
 class Product:
     def __init__(self, Артикул, Наименование, Цена, Количество):
